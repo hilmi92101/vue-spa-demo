@@ -12,16 +12,25 @@
 */
 
 
-Route::get('/{any?}', function () {
-    return view('app');
-})->where('any', '.*');
-
-
 /*Route::get('/{any?}', function () {
+    return view('app');
+})->where('any', '.*');*/
+
+
+Route::get('/backoffice/', function () {
+    return view('layouts.backoffice');
+});
+
+Route::get('/{any?}', function () {
     return view('app');
 });
 
 Route::get('/user/{any?}', function () {
     return view('app');
-});*/
+});
+
+
+
+
+
  

@@ -17888,9 +17888,8 @@ var Animations = function Animations() {
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mode: 'history',
-  linkActiveClass: 'font-weight-bold',
-  linkExactActiveClass: 'font-weight-bold',
-  // no need exact attribute on html with this
+  //linkActiveClass: 'font-weight-bold',
+  //linkExactActiveClass: 'font-weight-bold', // no need exact attribute on html with this
   routes: [{
     path: '*',
     component: _components_NotFound__WEBPACK_IMPORTED_MODULE_10__["default"]
@@ -17937,6 +17936,10 @@ var Animations = function Animations() {
     path: '/wallpapers',
     component: _components_Wallpapers__WEBPACK_IMPORTED_MODULE_9__["default"],
     name: 'wallpapers'
+  }, {
+    path: '/backoffice',
+    component: _components_Mascot__WEBPACK_IMPORTED_MODULE_7__["default"],
+    name: 'backoffice'
   }]
 });
 

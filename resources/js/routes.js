@@ -20,8 +20,8 @@ export default {
 
     mode: 'history',
 
-    linkActiveClass: 'font-weight-bold',
-    linkExactActiveClass: 'font-weight-bold', // no need exact attribute on html with this
+    //linkActiveClass: 'font-weight-bold',
+    //linkExactActiveClass: 'font-weight-bold', // no need exact attribute on html with this
 
     routes: [
 
@@ -90,6 +90,12 @@ export default {
             path:'/wallpapers',
             component: Wallpapers,
             name: 'wallpapers'
+        },
+
+        {
+            path:'/backoffice',
+            component: Mascot,
+            name: 'backoffice'
         },
     ]
 
